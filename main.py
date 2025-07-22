@@ -30,7 +30,7 @@ if __name__ == "__main__":
         try:
             print('Calculadora')
             num1 = float(input("Digite o primeiro número: "))
-            operador = input("Digite qual a operação que deseja realizar (+, -, *, /, **): ")
+            operador = input("Digite qual a operaação que deseja realizar (+, -, *, /, **): ")
             num2 = float(input("Digite o segundo número: "))
 
             resultado = calculadora(num1, num2, operador)
