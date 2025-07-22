@@ -17,7 +17,8 @@ def calculadora(num1: float, num2: float, operador: str) -> float:
     elif operador == '/':
         if num2 != 0:
             result = num1 / num2
-
+  else:
+        raise ZeroDivisionError("Divisão por zero.")
     return result
 
 
